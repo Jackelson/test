@@ -57,6 +57,9 @@ const handelClick = (n: Object) => {
   .menu {
     cursor: pointer;
     color: rgba(163, 190, 245, 1);
+    &:hover {
+      color: rgba(65, 90, 214, 1);
+    }
   }
 }
 .subMenu {
